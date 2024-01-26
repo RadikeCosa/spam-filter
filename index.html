@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Learn Regular Expressions by Building a Spam Filter</title>
+    <title>RamiFilter</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
 
@@ -11,14 +11,15 @@
     <header class="main-text">
       <h1 class="title">Is this Spam?</h1>
       <p class="description">
-        Enter a phrase to check if it would be marked as spam or not.
+        Ingresa una frase y chequea sin contiene SPAM 
+        (filtra expresiones comunes en SPAM)</p>
       </p>
     </header>
 
     <main>
-      <label class="message-label" for="message-input">Message: </label>
+      <label class="message-label" for="message-input">Frase: </label>
       <textarea
-        placeholder="Enter message here"
+        placeholder="ingresa la frase acá"
         value=""
         type="text"
         name="message"
@@ -27,12 +28,12 @@
         cols="40"
       ></textarea>
       <button class="btn" id="check-message-btn" type="button">
-        Check message
+        Chequar
       </button>
       <p id="result"></p>
     </main>
 
-    <footer class="footer">&copy; freeCodeCamp</footer>
+    <footer class="footer">&copy; Radike</footer>
     <script src="./script.js"></script>
   </body>
 </html>
